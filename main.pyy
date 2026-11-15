@@ -1,0 +1,16 @@
+# main.py — простая программа-калькулятор
+
+
+def greet(name):
+    """Возвращает приветствие."""
+    return f"Привет, {name}!"
+
+
+def add(a, b):
+    """Складывает два числа."""
+    return a + b
+
+
+if __name__ == "__main__":
+    print(greet("мир"))
+    print("2 + 3 =", add(2, 3))
